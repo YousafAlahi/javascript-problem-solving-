@@ -110,18 +110,24 @@ Remember arrays are zero-indexed (start at 0)
 Always check array length before accessing elements
 Use built-in methods like push(), pop(), includes() when possible
 
-10 JavaScript Array Problems with map, forEach, filter, and reduce
-Problem 21: Double All Numbers (map)
-Question: Create a new array with all numbers doubled.
-Answer:
-javascriptconst numbers = [1, 2, 3, 4, 5];
+
+        <!-- 2nd Part of JavaScript Arrays  -->
+
+
+`10 JavaScript Array Problems with map, forEach, filter, and reduce`
+`Problem 21: Double All Numbers (map)`
+`Question: Create a new array with all numbers doubled.`
+`Answer:`
+
+const numbers = [1, 2, 3, 4, 5];
 const doubled = numbers.map(num => num * 2);
 console.log(doubled); // [2, 4, 6, 8, 10]
 console.log(numbers); // [1, 2, 3, 4, 5] (original unchanged)
 
-Problem 22: Print Each Element (forEach)
-Question: Print each fruit with its index number.
-Answer:
+`Problem 22: Print Each Element (forEach)`
+`Question: Print each fruit with its index number.`
+`Answer:`
+
 javascriptconst fruits = ['apple', 'banana', 'orange', 'mango'];
 fruits.forEach((fruit, index) => {
     console.log(`${index}: ${fruit}`);
@@ -160,8 +166,8 @@ const words = ['hello', 'world', 'javascript'];
 const uppercase = words.map(word => word.toUpperCase());
 console.log(uppercase); // ['HELLO', 'WORLD', 'JAVASCRIPT']
 
-Problem 26: Filter Long Words (filter)
-Question: Get only words that have more than 5 letters.
+`Problem 26: Filter Long Words (filter)`
+`Question: Get only words that have more than 5 letters.`
 
 const words = ['cat', 'elephant', 'dog', 'butterfly', 'ant'];
 const longWords = words.filter(word => word.length > 5);

@@ -108,12 +108,91 @@
 // Question: Find the largest number in an array.
 // `Problems No ==> 10 Solution :`
 
-const nums = [12,10,15,34,11,66];
+// const nums = [12,10,15,34,11,66,99];
+
+// let largestNum = nums[0];
+// for(let i = 1; i < nums.length; i++){
+//     if(nums[i] > largestNum){
+//         largestNum = nums[i]
+//     }   
+// }
+
+// console.log(largestNum)
 
 
-
-
+// `Question: Create a new array with all numbers doubled.`
 // `Problems No ==> 11 Solution :`
+
+// const numbers = [10,20,30,40];
+
+// const doubleNumber = numbers.map((num) => num * 2 );
+
+// console.log(doubleNumber);
+// console.log(numbers);
+
+// `Problem 22: Print Each Element (forEach)`
+// `Question: Print each fruit with its index number.`
 // `Problems No ==> 12 Solution :`
+
+// const fruit = ["Apple","Mango","Orange","Banana"];
+// const NewFruit = fruit.forEach((f)=> console.log(f))
+
+
+// `Problem 23: Filter Even Numbers (filter)`
+// `Question: Get only even numbers from an array.`
 // `Problems No ==> 13 Solution :`
-// `Problems No ==> 6 Solution :`
+
+// const number = [1,2,3,4,5,6,7,8,9,10];
+
+// const EvenNumber = number.filter((num) => num%2 == 0)
+
+// console.log(EvenNumber);
+
+
+// `Problem 24: Sum All Numbers (reduce)`
+// `Question: Calculate the total sum of all numbers in an array.`
+// `Problems No ==> 14 Solution :`
+
+// const number = [10,20,35,40];
+
+// const totalNumber = number.reduce((total,num) => total + num ,0 );
+// console.log(totalNumber);
+
+
+
+
+// `Problem 25: Convert to Uppercase (map)`
+// `Question: Convert all strings in an array to uppercase.`
+// `Problems No ==> 15 Solution :`
+
+    // const words = ["hello","world","javascript"];
+    // const Uppercase = words.map((word) => word.toUpperCase());
+    // console.log(Uppercase);
+
+    
+// `Problem 16: Filter Long Words (filter)`
+// `Question: Get only words that have more than 5 letters.`
+// `Problems No ==> 16 Solution :`
+
+    // const words = ["Pak","Ind","Banglash"];
+    // const longWord = words.filter((word) => word.length > 5);
+    // console.log(longWord);
+
+
+// `Problems No ==> 14 Solution :`
+// `Problems No ==> 14 Solution :`
+// `Problems No ==> 14 Solution :`
+// `Problems No ==> 14 Solution :`
+// `Problems No ==> 14 Solution :`
+// `Problems No ==> 14 Solution :`
+// `Problems No ==> 14 Solution :`
+// `Problems No ==> 14 Solution :`
+// `Problems No ==> 14 Solution :`
+// `Problems No ==> 14 Solution :`
+// `Problems No ==> 14 Solution :`
+// `Problems No ==> 14 Solution :`
+// `Problems No ==> 14 Solution :`
+// `Problems No ==> 14 Solution :`
+// `Problems No ==> 14 Solution :`
+// `Problems No ==> 14 Solution :`
+

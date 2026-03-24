@@ -1,10 +1,12 @@
 
 
-JavaScript Objects - 10 Beginner Practice Problems
-Problem 1: Create a Simple Object
-Question: Create an object called person with properties: name, age, and city.
+JavaScript Objects - 10 Beginner Practice Problems;;;
+
+`Problem 1: Create a Simple Object`
+`Question: Create an object called person with properties: name, age, and city.`
 Answer:
-javascriptconst person = {
+
+const person = {
   name: "John",
   age: 25,
   city: "New York"
@@ -13,10 +15,11 @@ javascriptconst person = {
 console.log(person.name); // John
 console.log(person.age);  // 25
 
-Problem 2: Access Object Properties
-Question: Given an object car, access its properties using both dot and bracket notation.
+`Problem 2: Access Object Properties`
+`Question: Given an object car, access its properties using both dot and bracket notation.`
 Answer:
-javascriptconst car = {
+
+const car = {
   brand: "Toyota",
   model: "Camry",
   year: 2020
@@ -28,10 +31,11 @@ console.log(car.brand); // Toyota
 // Bracket notation
 console.log(car["model"]); // Camry
 
-Problem 3: Add New Properties
-Question: Add a new property color to an existing object.
+`Problem 3: Add New Properties`
+`Question: Add a new property color to an existing object.`
 Answer:
-javascriptconst bike = {
+
+const bike = {
   brand: "Honda",
   model: "CBR"
 };
@@ -43,10 +47,11 @@ bike["price"] = 5000;
 console.log(bike);
 // { brand: 'Honda', model: 'CBR', color: 'Red', price: 5000 }
 
-Problem 4: Object with Methods
-Question: Create an object with a method that returns a greeting.
+`Problem 4: Object with Methods`
+`Question: Create an object with a method that returns a greeting.`
 Answer:
-javascriptconst user = {
+
+const user = {
   name: "Alice",
   age: 30,
   greet: function() {
@@ -56,10 +61,11 @@ javascriptconst user = {
 
 console.log(user.greet()); // Hello, my name is Alice
 
-Problem 5: Update Object Properties
-Question: Change the value of an existing property in an object.
+`Problem 5: Update Object Properties`
+`Question: Change the value of an existing property in an object.`
 Answer:
-javascriptconst student = {
+
+const student = {
   name: "Bob",
   grade: "A",
   age: 20
@@ -72,10 +78,11 @@ student["age"] = 21;
 console.log(student);
 // { name: 'Bob', grade: 'A+', age: 21 }
 
-Problem 6: Delete Object Properties
-Question: Remove a property from an object.
+`Problem 6: Delete Object Properties`
+`Question: Remove a property from an object.`
 Answer:
-javascriptconst book = {
+
+const book = {
   title: "JavaScript Guide",
   author: "John Doe",
   year: 2020,
@@ -88,10 +95,11 @@ delete book.publisher;
 console.log(book);
 // { title: 'JavaScript Guide', author: 'John Doe', year: 2020 }
 
-Problem 7: Check if Property Exists
-Question: Check if a property exists in an object.
+`Problem 7: Check if Property Exists`
+`Question: Check if a property exists in an object.`
 Answer:
-javascriptconst laptop = {
+
+const laptop = {
   brand: "Dell",
   ram: "16GB",
   processor: "i7"
@@ -104,10 +112,10 @@ console.log("graphics" in laptop);  // false
 // Using hasOwnProperty
 console.log(laptop.hasOwnProperty("ram")); // true
 
-Problem 8: Loop Through Object Properties
-Question: Print all keys and values of an object.
+`Problem 8: Loop Through Object Properties`
+`Question: Print all keys and values of an object.`
 Answer:
-javascriptconst product = {
+const product = {
   name: "Phone",
   price: 500,
   brand: "Samsung"
@@ -122,10 +130,11 @@ for (let key in product) {
 // price: 500
 // brand: Samsung
 
-Problem 9: Nested Objects
-Question: Create an object with nested objects and access nested properties.
+`Problem 9: Nested Objects`
+`Question: Create an object with nested objects and access nested properties.`
 Answer:
-javascriptconst company = {
+
+const company = {
   name: "Tech Corp",
   address: {
     street: "123 Main St",
@@ -165,10 +174,12 @@ Use bracket notation when property names have spaces or are dynamic
 Always check if property exists before accessing nested properties
 Keep objects organized and don't make them too complex
 10 moreFeb 12JavaScript Objects - 10 More Practice Problems
-Problem 11: Object.keys()
-Question: Get all the keys from an object as an array.
+
+`Problem 11: Object.keys()`
+`Question: Get all the keys from an object as an array.`
 Answer:
-javascriptconst smartphone = {
+
+const smartphone = {
   brand: "iPhone",
   model: "14 Pro",
   storage: "256GB",
@@ -182,10 +193,11 @@ console.log(keys);
 // Count properties
 console.log(keys.length); // 4
 
-Problem 12: Object.values()
-Question: Get all the values from an object as an array.
+`Problem 12: Object.values()`
+`Question: Get all the values from an object as an array.`
 Answer:
-javascriptconst scores = {
+
+const scores = {
   math: 95,
   science: 88,
   english: 92,
@@ -199,10 +211,11 @@ console.log(values); // [95, 88, 92, 85]
 const total = values.reduce((sum, score) => sum + score, 0);
 console.log(total); // 360
 
-Problem 13: Object.entries()
-Question: Convert an object into an array of key-value pairs.
+`Problem 13: Object.entries()`
+`Question: Convert an object into an array of key-value pairs.`
 Answer:
-javascriptconst fruit = {
+
+const fruit = {
   name: "Apple",
   color: "Red",
   price: 2.5
@@ -217,10 +230,11 @@ entries.forEach(([key, value]) => {
   console.log(`${key}: ${value}`);
 });
 
-Problem 14: Copy an Object (Shallow Copy)
-Question: Create a copy of an object without modifying the original.
+`Problem 14: Copy an Object (Shallow Copy)`
+`Question: Create a copy of an object without modifying the original.`
 Answer:
-javascriptconst original = {
+
+const original = {
   name: "Tom",
   age: 25,
   city: "Paris"
@@ -240,7 +254,7 @@ console.log(copy2.age);    // 30
 Problem 15: Merge Multiple Objects
 Question: Combine two or more objects into one.
 Answer:
-javascriptconst personalInfo = {
+const personalInfo = {
   name: "Sarah",
   age: 28
 };
