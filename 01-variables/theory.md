@@ -57,31 +57,99 @@ Jo var se declare hotay hain
 
 
 
-// Q1 : ====>> Variable declare karo aur print karo
+`// Q1 : ====>> Variable declare karo aur print karo`
  
 // let name = "Yousaf";
+// var age = 23;
+// const city = "Lahore"
 
-// console.log(name);
+// console.log(name, age, city);
 
-// Q2 : ====>>> const variable banayo aur reassign karne ki koshish karo
+`// Q2 : ====>>>  var, let aur const variable banayo aur re-declare aur re-assign karne ki koshish karo`
 
-// const city = "Lahore";
-// city = "Multan";
-// console.log(city); // error
+var name = "Ali";
+let age = 23;
+const city = "Lahore";
 
-// Q3: var aur let ka scope check karo
+// using  (Template Literals)
+ console.log(`My name is ${name}. My age is ${age} and I am from ${city}`);
+
+`// var , let , const keyword variable re-declare and re-assign  ;;;`
+
+`// ====== re-declare variables ====== ;;;;;`
+
+`// re-declare ka mtlb ha ky same name ky 2 varible bana lena ak block mein `
+
+// var name = "Maqsoood";   `// var keyword ky variable ko re-declare kr sakty hain ;;`
+// let age = 33;            `// let keyword ky variable ko re-declare nahi kr sakty hain ;;`
+// const city = "Multan"    `// const keyword ky variable ko re-declare nahi kr sakty hain ;;`
+
+// console.log(name, age, city);
+
+`// ==== re-assign variables ===== ;;;;;`
+ `// re-assign ka mtlb ha ky varible ky value change kr dena `
+
+name = "Maqsood"; `// var keyword ky variable ko re-assign kr sakty hain ;;`
+age = 44 ;        `// let keyword ky variable ko re-assign kr sakty hain ;;`
+// city = "Karachi"; `// const keyword ky variable ko re-assign nahi kr sakty hain ;;`
+
+// console.log(name, age, city);
+ console.log(`My name is ${name}. My age is ${age} and I am from ${city}`);
+
+`// Q3: var , let aur const ka scope check karo`
+
+ // =====  'Using "Var" keyword for declare a variable and check  scope '
+
+var name = "Ali";
+if(true){
+    var city = "Lahore";
+    console.log(`My name is ${name}`);
+}
+console.log(`I am from ${city}`);
+
+
+// ===== 'using "Let" keyword for declare a variable and check  scope '
+let name = "Ali";
+
+if(true){
+
+    let city = "Lahore";
+    console.log(`My name is ${name}`);
+
+}
+
+console.log(`I am from ${city}`);
+
+// =====  'using "Const" keyword for declare a variable and check  scope ' ;;;;
+const name = "Ali";
+
+if(true){
+
+    const city = "Lahore";
+    console.log(`My name is ${name}`);
+
+}
+
+console.log(`I am from ${city}`);
+
  
-// if(true){
-//     var name = "Yousaf";
-//     let city = "Lahore";
-// };
+ `// =====  'Using "Var" keyword for declare a variable and check  Hoisting `
 
-// console.log(name); // work
-// console.log(city); // not work
+console.log(name);
+let name = "Ali";
 
+  
+ `// =====  Using "Let" keyword for declare a variable and check  Hoisting `
 
+console.log(name);
+ var name = "Ali";
+ 
+ `// =====  Using "Const" keyword for declare a variable and check  Hoisting `
 
-// Q4 ====>> : Do variables swap karo ;;;;;;;
+console.log(name);
+const name = "Ali";
+
+`// Q4 ====>> : Do variables swap karo ;;;;;;;`
 
 // let a = 10;
 // let b = 20;
@@ -92,7 +160,7 @@ Jo var se declare hotay hain
 
 // console.log(a, b);
 
-// Q5 ====>> : const array modify karo ;;;
+`// Q5 ====>> : const array modify karo ;;;  `
 
 // const arr = [1,2,3,4];
 // arr.push(4);

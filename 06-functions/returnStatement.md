@@ -44,7 +44,8 @@ Explanation: Return statement ke baad ka code execute nahi hota. Ye "early exit"
 
 Problem 3: Multiple Return Statements
 Sawal: Grade ke basis par result return karo.
-javascriptfunction getGrade(marks) {
+
+function getGrade(marks) {
   if (marks >= 90) {
     return "A+";
   }
@@ -71,7 +72,8 @@ Explanation: Pehli condition jo true hogi, wahi return hoga aur function wahi kh
 
 Problem 4: Return Object
 Sawal: Student ki details object mein return karo.
-javascriptfunction createStudent(name, age, grade) {
+
+function createStudent(name, age, grade) {
   return {
     studentName: name,
     studentAge: age,

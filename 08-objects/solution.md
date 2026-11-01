@@ -150,7 +150,8 @@ console.log(company["address"]["country"]); // USA
 Problem 10: Object with Array Property
 Question: Create an object containing an array and access array elements.
 Answer:
-javascriptconst teacher = {
+
+const teacher = {
   name: "Ms. Smith",
   subjects: ["Math", "Science", "English"],
   experience: 10
@@ -232,7 +233,6 @@ entries.forEach(([key, value]) => {
 
 `Problem 14: Copy an Object (Shallow Copy)`
 `Question: Create a copy of an object without modifying the original.`
-Answer:
 
 const original = {
   name: "Tom",
@@ -251,8 +251,8 @@ copy2.age = 30;
 console.log(original.age); // 25 (unchanged)
 console.log(copy2.age);    // 30
 
-Problem 15: Merge Multiple Objects
-Question: Combine two or more objects into one.
+`Problem 15: Merge Multiple Objects`
+`Question: Combine two or more objects into one.`
 Answer:
 const personalInfo = {
   name: "Sarah",
@@ -268,17 +268,11 @@ const contactInfo = {
 const fullProfile = { ...personalInfo, ...contactInfo };
 
 console.log(fullProfile);
-// {
-//   name: 'Sarah',
-//   age: 28,
-//   email: 'sarah@email.com',
-//   phone: '123-456-7890'
-// }
 
-Problem 16: Object Destructuring
-Question: Extract properties from an object into variables.
-Answer:
-javascriptconst employee = {
+`Problem 16: Object Destructuring`
+`Question: Extract properties from an object into variables.`
+
+const employee = {
   id: 101,
   name: "Mike",
   position: "Developer",
@@ -295,10 +289,10 @@ const { name: employeeName, salary: pay } = employee;
 console.log(employeeName); // Mike
 console.log(pay);          // 60000
 
-Problem 17: Default Property Values
-Question: Provide default values when properties might be missing.
-Answer:
-javascriptfunction createUser(userInfo) {
+`Problem 17: Default Property Values`
+`Question: Provide default values when properties might be missing.`
+
+function createUser(userInfo) {
   const { 
     name, 
     age = 18,           // default value
@@ -315,10 +309,10 @@ const user2 = createUser({ name: "Jane" });
 console.log(user1); // { name: 'John', age: 25, country: 'USA', active: true }
 console.log(user2); // { name: 'Jane', age: 18, country: 'USA', active: true }
 
-Problem 18: Computed Property Names
-Question: Use variables as property names when creating objects.
-Answer:
-javascriptconst propertyName = "favoriteColor";
+`Problem 18: Computed Property Names`
+`Question: Use variables as property names when creating objects.`
+
+const propertyName = "favoriteColor";
 const propertyValue = "Blue";
 
 // Computed property name
@@ -337,10 +331,11 @@ const createProp = (key, value) => {
 
 console.log(createProp("age", 30)); // { age: 30 }
 
-Problem 19: Object Method Shorthand
-Question: Create object methods using shorthand syntax.
+`Problem 19: Object Method Shorthand`
+`Question: Create object methods using shorthand syntax.`
 Answer:
-javascriptconst calculator = {
+
+const calculator = {
   num1: 10,
   num2: 5,
   
@@ -363,10 +358,10 @@ console.log(calculator.add());      // 15
 console.log(calculator.subtract()); // 5
 console.log(calculator.multiply()); // 50
 
-Problem 20: Check Object Equality
-Question: Compare two objects to see if they have the same properties and values.
-Answer:
-javascriptconst obj1 = { name: "Alice", age: 25 };
+`Problem 20: Check Object Equality`
+`Question: Compare two objects to see if they have the same properties and values.`
+
+const obj1 = { name: "Alice", age: 25 };
 const obj2 = { name: "Alice", age: 25 };
 const obj3 = obj1;
 

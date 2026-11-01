@@ -1,82 +1,89 @@
 
+🔥 Practice Tip (IMPORTANT)
 
-Problem 1: Calculate Rectangle Area
-JavaScript Solution
-let length = 10;
-let width = 5;
-let area = length * width;
+👉 Har example ko khud change karo:
 
-console.log("Area: " + area);
-console.log(`Area of Rectangle is ${area} square units`);
+numbers change karo
+conditions change karo
+output guess karo
 
-
-Problem 2: Shopping Cart Total
-JavaScript Solution
-
-// Apples ki quantity aur price
-let apples = 4;
-let pricePerApple = 3;
-
-// Total cost calculate karna
-let totalCost = apples * pricePerApple;
-
-// Result print karna
-console.log("===== SHOPPING CART =====");
-console.log(`Number of Apples: ${apples}`);
-console.log(`Price per Apple: $${pricePerApple}`);
-console.log(`Total Cost: $${totalCost}`);
-console.log("=========================");
+👉 Ye interview me bohot help karega 💯
 
 
 
-Problem 3: Convert Hours to Minutes
-JavaScript Solution
+ // =====>>> 🔹 1. Arithmetic Operators (+ - * / %) ======>>>
 
-// Hours ki value
-let hours = 8;
+✅ Example 1 ;;;
 
-// Minutes mein convert karna
-let minutes = hours * 60;
+  let num1 = 40 ;
+  let num2 = 30 ;
 
-// Result print karna
-console.log("===== TIME CONVERTER =====");
-console.log(`Hours: ${hours}`);
-console.log(`Minutes: ${minutes}`);
-console.log("==========================");
+  let addition = num1 + num2 ;
+  let subtraction = num1 - num2 ;
+  let division =  num1 / num2 ;
+  let multiplication = num1 * num2 ;
+  let moduls = num1 % num2
 
-// Detailed output
-console.log(`${hours} hours = ${minutes} minutes`);
+    console.log(`+ add karta hai` , addition);
+    console.log(`- subtract`, subtraction);
+    console.log(`/ division karta ha `, division);
+    console.log(`* multiply karta hai`, multiplication);
+    console.log(`% remainder deta hai (10 ko 3 se divide karne par 1 bach jata hai)`, moduls);
 
-Problem 4: Double a Number
-JavaScript Solution
+    
+ // =====>>> 🔹 2. Assignment Operators (=, +=, -=) ======>>>
+✅ Example 1 ;;;
+let num = 10 ;  
+console.log(`// = assign karta ha ` , num);
 
-// Koi bhi number
-let number = 15;
+✅ Example 2 ;;;
+let num1 = 10 ;
+num1 += 4 ; 
+console.log(`num1 += 4 ka matlb ha num1 = num1 + 4 = `, +" "+ num1);
 
-// Number ko double karna
-let doubleNumber = number * 2;
+✅ Example 3 ;;;
+let num2 = 20 ;
+num2 -= 10 ;
 
-console.log(`Original Number: ${number}`);
-console.log(`Double Number: ${doubleNumber}`);
-
-
-// Alternative tareeqa
-console.log(`${number} × 2 = ${doubleNumber}`);
+console.log(`num2 -= 10 ka matlb ha num2 = num2 - 10 = `, +" "+ num2);
 
 
-Problem 5: Calculate Triangle Area
-JavaScript Solution
+  // =====>>> 🔹 3. Comparison Operators (==, ===, > , <) ======>>>
+✅ Example 1 ;;;
 
-// Triangle ki base aur height
-let base = 10;
-let height = 8;
+    // let num1 = 5 ;
+    // let num2 = "5";
+    // console.log(`== this called loose equality operator matlb srf value compare karta ha ` , num1 == num2);
+    // console.log(`=== this called strict equality operator matlb srf value aur type dono compare karta ha `
+    num1 === num2);
 
-// Area calculate karna
-let triangleArea = (base * height) / 2;
+✅ Example 2 ;;;
+    // let num1 = 10 ;
+    // let num2 = 20 ;
+    // console.log(num1 < num2);
 
-// Result print karna
-console.log("===== TRIANGLE AREA =====");
-console.log(`Base: ${base} units`);
-console.log(`Height: ${height} units`);
-console.log(`Area: ${triangleArea} square units`);
-console.log("=========================");
+✅ Example 3 ;;;
+    // let num1 = 10 ;
+    // let num2 = 5 ;
+    // console.log(num1 > num2);
+
+✅ Example 4 ;;;
+    // let num1 = 5  ;
+    // let num2 = "5" ;
+
+    // if(num1 == num2){
+    //     console.log("yes, as Statement mein Loose equality operator use ho raha ha");
+    // };
+
+✅ Example 5 ;;;
+    let num1 = "10"  ;
+    let num2 = "10" ;
+
+    if(num1 === num2){
+        console.log("yes, as Statement mein strict equality operator use ho raha ha");
+    };
+
+ // ====>>> ! NOT  Operator  ====>>>;;
+
+         let isLoggedIn = false ;
+         console.log(`! false value ko reverse karta hai`, !isLoggedIn)

@@ -13,6 +13,7 @@ A null variable
 
 Then use typeof to check each one. -->
 <!-- 
+
 Problem 2: Student Information Object
 Create an object called student that contains:
 
@@ -45,7 +46,7 @@ Then check the data type of fullName. -->
 <!-- 
 Problem 5: Mix and Match
 Create variables with these values and identify their data types:
-javascriptlet a = 100;
+let a = 100;
 let b = "100";
 let c = true;
 let d = a + a;

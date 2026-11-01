@@ -1,29 +1,36 @@
 
-`Problem 1  ===> : Age Checker`
-Write a program that checks if a person can vote. Create a variable age and use an if-else statement
-to print "You can vote" if age is 18 or above, otherwise print "You cannot vote yet".
+`Problem 1  ===> : Check if a number is even or odd`
+`Problem: Write a program to check if a number is even or odd.`
 
-`Problem 2  ===> : Grade Calculator`
-Create a program that assigns letter grades based on scores. Use if-else if-else statements:
+`Problem 2  ===> : Find the largest of two numbers`
+`Problem: Write a program to find the largest number between two numbers.`
 
-90 or above: "Grade A"
-80-89: "Grade B"
-70-79: "Grade C"
-Below 70: "Grade F"
+`Problem 3  ===> : Find the largest of three numbers`
+`Problem: Write a program to find the largest number between three numbers.`
 
-`Problem 3  ===> : Even or Odd`
-Write a program that checks if a number is even or odd. Use the modulus operator (%) and if-else statement.
+`Problem 4  ===> : Check if a person can vote`
+`Problem: Write a program to check if a person is eligible to vote (age >= 18).`
 
-`Problem 4  ===> : Traffic Light`
-Create a traffic light simulator. Use a switch statement to check the color:
+`Problem 5  ===> : Grade calculation`
+`Problem: Write a program to assign grades based on marks (A: 90+, B: 80-89, C: 70-79, D: 60-69, F: below 60).`
 
-"red" → "Stop"
-"yellow" → "Slow down"
-"green" → "Go"
-Any other value → "Invalid color"
+`Problem 6  ===> : Check if a string contains a specific letter`
+`Problem: Write a program to check if the word "apple" contains the letter "p".`
 
-`Problem 5  ===> : Temperature Advisor`
-Write a program using the ternary operator that suggests what to wear based on temperature:
+`Problem 7  ===> : Leap year check`
+`Problem: Write a program to check if a year is a leap year.`
 
-If temperature is above 25: "Wear a t-shirt"
-Otherwise: "Wear a jacket"
+
+`Problem 8  ===> : Calculator using switch`
+`Problem: Create a simple calculator using switch statement.`
+
+
+`Problem 9 ===> : Multiple conditions - Login system`
+`Problem: Write a program to check login credentials (username and password).`
+
+`Problem 10  ===> : Traffic Light`
+`Create a traffic light simulator. Use a switch statement to check the color:`
+
+
+`Problem 11  ===> : Temperature Advisor`
+`Write a program using the ternary operator that suggests what to wear based on temperature:`
